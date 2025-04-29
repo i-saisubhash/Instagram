@@ -36,6 +36,7 @@
     font-size: 44px;
     font-weight: bold;
     color: #0e0101;
+    cursor: pointer;
   }
   
   .login-input {
@@ -80,3 +81,67 @@
     transform: scale(1.02);
   }
   
+
+  .lucy {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 16px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .lucy:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+  }
+  
+  .labelling {
+    display: block;
+    margin: 20px 0;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .labelling input[type="radio"] {
+    margin-right: 8px;
+    margin-left: 16px;
+    accent-color: #007bff;
+    cursor: pointer;
+  }
+  
+  .labelling input[type="radio"]:first-of-type {
+    margin-left: 0;
+  }
+  
+  .labelling br {
+    margin-bottom: 8px;
+  }
+  
+  
+
+  .confirm-btn {
+    width: 100px;
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #660ef5, #f6279c);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 149, 246, 0.4)
+  };
+
+  .confirm-btn:hover {
+    background: linear-gradient(135deg, #007fd1, #00a318);
+    box-shadow: 0 6px 16px rgba(0, 149, 246, 0.5);
+    transform: scale(1.02);
+  }

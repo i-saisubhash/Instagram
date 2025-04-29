@@ -14,7 +14,7 @@ function LoggedIn() {
              return <option key={index} value={listofoptions}> {listofoptions} </option> })}
             </select>
 
-            useEffect(()=>{},[])
+            {/* useEffect(()=>{},[]) */}
 
 
 
